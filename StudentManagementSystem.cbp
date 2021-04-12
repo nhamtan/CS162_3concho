@@ -32,7 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Year_Class.h" />
+		<Unit filename="login.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="staff.h" />
+		<Unit filename="student.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

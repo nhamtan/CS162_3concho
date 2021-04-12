@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#ifndef login_h
-#define login_h
+#ifndef _login_h_
+#define _login_h_
 
 struct User{
      string name;
@@ -12,6 +12,7 @@ struct User{
 };
 
 #endif
+
 
 
 
