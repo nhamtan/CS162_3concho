@@ -4,7 +4,8 @@
 #ifndef _staff_h_
 #define _staff_h_
 
-
+struct{
+};
 
 
 
