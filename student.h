@@ -5,5 +5,6 @@
 #define _student_h_
 
 
-
+struct {
+};
 #endif // _student_h_
