@@ -10,7 +10,7 @@ struct classes
 };
 struct semester
 {
-    classes cls[5];
+    classes cls[10];
 };
 struct year2021
 {
