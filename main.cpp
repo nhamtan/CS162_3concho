@@ -1,5 +1,8 @@
+#include"course.h"
+#include"date.h"
 #include"login.h"
-#include "Year_Class.h"
+#include"staff.h"
+#include"student.h"
 #include <bits/stdc++.h>
 
 

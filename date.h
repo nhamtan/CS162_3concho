@@ -1,7 +1,8 @@
 #include<iostream>
 #ifndef _date_h_
 #define _date_h_
-
+#include<bits/stdc++.h>
+using namespace std;
 
 
 struct date
