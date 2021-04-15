@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1618198398 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\studentmanagementsystem\login.cpp
-	"login.h"
-
-1618198398 c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\studentmanagementsystem\login.h
-	<bits/stdc++.h>
-
-1618198436 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\studentmanagementsystem\course.cpp
-
