@@ -45,3 +45,52 @@
 	<fstream>
 	<bits/stdc++.h>
 
+1618470067 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\course.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"course.h"
+	"date.h"
+	"login.h"
+	"staff.h"
+	"student.h"
+
+1618470067 c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\course.h
+	"date.h"
+	<iostream>
+	<bits/stdc++.h>
+
+1618470067 c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\date.h
+	<iostream>
+	<bits/stdc++.h>
+
+1618470067 c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\login.h
+	<bits/stdc++.h>
+
+1618470067 c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\staff.h
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+
+1618478800 c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\student.h
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+
+1618478345 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\login.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"login.h"
+
+1618480384 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\student.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"course.h"
+	"date.h"
+	"login.h"
+	"staff.h"
+	"student.h"
+
+1618478800 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\main.cpp
+	"student.h"
+	<bits/stdc++.h>
+
