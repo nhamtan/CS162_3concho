@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1618198398 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\studentmanagementsystem\login.cpp
+	"login.h"
+
+1618198398 c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\studentmanagementsystem\login.h
+	<bits/stdc++.h>
+
+1618198436 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\studentmanagementsystem\course.cpp
+
+1618283792 source:d:\github\cs162_3concho\main.cpp
+	"course.h"
+	"date.h"
+	"login.h"
+	"staff.h"
+	"student.h"
+	<bits/stdc++.h>
+
+1618231514 d:\github\cs162_3concho\login.h
+	<bits/stdc++.h>
+
+1618286930 source:d:\github\cs162_3concho\course.cpp
+	<iostream>
+	"course.h"
+	"date.h"
+	"login.h"
+	"staff.h"
+	"student.h"
+
+1618286997 d:\github\cs162_3concho\course.h
+	"date.h"
+	<iostream>
+	<bits/stdc++.h>
+
+1618288659 d:\github\cs162_3concho\date.h
+	<iostream>
+	<bits/stdc++.h>
+
+1618288659 d:\github\cs162_3concho\staff.h
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+
+1618288659 d:\github\cs162_3concho\student.h
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+
