@@ -38,7 +38,11 @@
 		<Unit filename="login.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="staff.h" />
+		<Unit filename="staffKy.cpp" />
+		<Unit filename="staffTan.cpp" />
 		<Unit filename="student.h" />
+		<Unit filename="studentMinh.cpp" />
+		<Unit filename="studentYen.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

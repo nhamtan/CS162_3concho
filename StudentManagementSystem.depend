@@ -7,7 +7,7 @@
 
 1618198436 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\studentmanagementsystem\course.cpp
 
-1618283792 source:d:\github\cs162_3concho\main.cpp
+1618387220 source:d:\github\cs162_3concho\main.cpp
 	"course.h"
 	"date.h"
 	"login.h"
@@ -18,8 +18,9 @@
 1618231514 d:\github\cs162_3concho\login.h
 	<bits/stdc++.h>
 
-1618286930 source:d:\github\cs162_3concho\course.cpp
+1618290664 source:d:\github\cs162_3concho\course.cpp
 	<iostream>
+	<bits/stdc++.h>
 	"course.h"
 	"date.h"
 	"login.h"
@@ -44,4 +45,19 @@
 	<iostream>
 	<fstream>
 	<bits/stdc++.h>
+
+1618317633 source:d:\github\cs162_3concho\staffky.cpp
+
+1618316827 source:d:\github\cs162_3concho\stafftan.cpp
+
+1618387207 source:d:\github\cs162_3concho\studentminh.cpp
+	<bits/stdc++.h>
+	"course.h"
+	"date.h"
+	"login.h"
+	"staff.h"
+	"student.h"
+	<fstream>
+
+1618316954 source:d:\github\cs162_3concho\studentyen.cpp
 
