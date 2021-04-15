@@ -1,15 +1,15 @@
-#include"course.h"
-#include"date.h"
-#include"login.h"
-#include"staff.h"
 #include"student.h"
+#include"staff.h"
+#include"login.h"
 #include <bits/stdc++.h>
 
 
 using namespace std;
+student *St;
+staff *Sf;
 
 int main()
 {
-
-   return 0;
+    //cout << st[1].password;
+    login(St , Sf);
 }

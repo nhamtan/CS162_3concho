@@ -9,7 +9,7 @@ using namespace std;
 
 void studentLogInToSystem(ifstream &fin,User &us)
 {
-    fin.open("student.txt");
+    fin.open("studentUser.txt");
     if(fin.is_open())
     {
         while()

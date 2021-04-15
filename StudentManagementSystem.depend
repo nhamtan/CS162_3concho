@@ -46,18 +46,81 @@
 	<fstream>
 	<bits/stdc++.h>
 
+<<<<<<< HEAD
 1618317633 source:d:\github\cs162_3concho\staffky.cpp
 
 1618316827 source:d:\github\cs162_3concho\stafftan.cpp
 
 1618387207 source:d:\github\cs162_3concho\studentminh.cpp
+=======
+1618470067 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\course.cpp
+	<iostream>
 	<bits/stdc++.h>
 	"course.h"
 	"date.h"
 	"login.h"
 	"staff.h"
 	"student.h"
+
+1618470067 c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\course.h
+	"date.h"
+	<iostream>
+	<bits/stdc++.h>
+
+1618470067 c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\date.h
+	<iostream>
+	<bits/stdc++.h>
+
+1618490253 c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\login.h
+	"student.h"
+	"staff.h"
+	<bits/stdc++.h>
+
+1618490687 c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\staff.h
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+
+1618490271 c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\student.h
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+
+1618491297 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\login.cpp
+	"student.h"
+	"staff.h"
+	"login.h"
+	<bits/stdc++.h>
+	"login.h"
+
+1618491297 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\student.cpp
+	<iostream>
+>>>>>>> de60c4722a9c92c79ffa5f31eb64e7707e3629ed
+	<bits/stdc++.h>
+	"course.h"
+	"date.h"
+	"login.h"
+	"staff.h"
+	"student.h"
+<<<<<<< HEAD
 	<fstream>
 
 1618316954 source:d:\github\cs162_3concho\studentyen.cpp
+=======
+
+1618490217 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\main.cpp
+	"student.h"
+	"staff.h"
+	"login.h"
+	<bits/stdc++.h>
+
+1618491297 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\staff.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"course.h"
+	"date.h"
+	"login.h"
+	"staff.h"
+	"student.h"
+>>>>>>> de60c4722a9c92c79ffa5f31eb64e7707e3629ed
 

@@ -6,6 +6,12 @@ using namespace std;
 #define _staff_h_
 
 
+struct staff{
+    string password;
+    string username;
+    staff *next = NULL;
+};
 
+void initStaff(staff *&sf);
 
 #endif // staff_h_
