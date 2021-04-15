@@ -7,25 +7,26 @@
 
 1618198436 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\studentmanagementsystem\course.cpp
 
-1618387220 source:d:\github\cs162_3concho\main.cpp
+1618494147 source:d:\github\cs162_3concho\main.cpp
+	"student.h"
+	"staff.h"
+	"login.h"
+	<bits/stdc++.h>
+
+1618494147 d:\github\cs162_3concho\login.h
+	"student.h"
+	"staff.h"
+	<bits/stdc++.h>
+
+1618497314 source:d:\github\cs162_3concho\course.cpp
+	"student.h"
+	"staff.h"
+	"login.h"
 	"course.h"
 	"date.h"
-	"login.h"
-	"staff.h"
-	"student.h"
 	<bits/stdc++.h>
-
-1618231514 d:\github\cs162_3concho\login.h
-	<bits/stdc++.h>
-
-1618290664 source:d:\github\cs162_3concho\course.cpp
 	<iostream>
-	<bits/stdc++.h>
-	"course.h"
-	"date.h"
-	"login.h"
-	"staff.h"
-	"student.h"
+	<fstream>
 
 1618286997 d:\github\cs162_3concho\course.h
 	"date.h"
@@ -36,23 +37,49 @@
 	<iostream>
 	<bits/stdc++.h>
 
-1618288659 d:\github\cs162_3concho\staff.h
+1618494147 d:\github\cs162_3concho\staff.h
 	<iostream>
 	<fstream>
 	<bits/stdc++.h>
 
-1618288659 d:\github\cs162_3concho\student.h
+1618494147 d:\github\cs162_3concho\student.h
 	<iostream>
 	<fstream>
 	<bits/stdc++.h>
 
-<<<<<<< HEAD
-1618317633 source:d:\github\cs162_3concho\staffky.cpp
+1618491297 D
+	<fstream>
 
-1618316827 source:d:\github\cs162_3concho\stafftan.cpp
+1618497314 source:d:\github\cs162_3concho\staffky.cpp
+	"student.h"
+	"staff.h"
+	"login.h"
+	"course.h"
+	"date.h"
+	<bits/stdc++.h>
+	<iostream>
+	<fstream>
 
-1618387207 source:d:\github\cs162_3concho\studentminh.cpp
-=======
+1618497314 source:d:\github\cs162_3concho\stafftan.cpp
+	"student.h"
+	"staff.h"
+	"login.h"
+	"course.h"
+	"date.h"
+	<bits/stdc++.h>
+	<iostream>
+	<fstream>
+
+1618497314 source:d:\github\cs162_3concho\studentminh.cpp
+	"student.h"
+	"staff.h"
+	"login.h"
+	"course.h"
+	"date.h"
+	<bits/stdc++.h>
+	<iostream>
+	<fstream>
+
 1618470067 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\course.cpp
 	<iostream>
 	<bits/stdc++.h>
@@ -95,18 +122,24 @@
 
 1618491297 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\student.cpp
 	<iostream>
->>>>>>> de60c4722a9c92c79ffa5f31eb64e7707e3629ed
+
+1618491297 0c4722a9c92c79ffa5f31eb64e7707e3629ed
 	<bits/stdc++.h>
 	"course.h"
 	"date.h"
 	"login.h"
 	"staff.h"
 	"student.h"
-<<<<<<< HEAD
-	<fstream>
 
-1618316954 source:d:\github\cs162_3concho\studentyen.cpp
-=======
+1618497314 source:d:\github\cs162_3concho\studentyen.cpp
+	"student.h"
+	"staff.h"
+	"login.h"
+	"course.h"
+	"date.h"
+	<bits/stdc++.h>
+	<iostream>
+	<fstream>
 
 1618490217 source:c:\users\dell\documents\school\apcs_k20\term_2\cs162\final\studentmanagementsystem\cs162_3concho\main.cpp
 	"student.h"
@@ -122,5 +155,14 @@
 	"login.h"
 	"staff.h"
 	"student.h"
->>>>>>> de60c4722a9c92c79ffa5f31eb64e7707e3629ed
+
+1618497314 source:d:\github\cs162_3concho\login.cpp
+	"student.h"
+	"staff.h"
+	"login.h"
+	"course.h"
+	"date.h"
+	<bits/stdc++.h>
+	<iostream>
+	<fstream>
 

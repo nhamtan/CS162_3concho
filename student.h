@@ -1,7 +1,12 @@
+#include"staff.h"
+#include"login.h"
+#include"course.h"
+#include"date.h"
+#include <bits/stdc++.h>
 #include<iostream>
-#include <fstream>
-#include<bits/stdc++.h>
+#include<fstream>
 using namespace std;
+
 #ifndef _student_h_
 #define _student_h_
 

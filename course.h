@@ -1,9 +1,12 @@
+#include"student.h"
+#include"staff.h"
+#include"login.h"
 #include"date.h"
+#include <bits/stdc++.h>
 #include<iostream>
-#include<bits/stdc++.h>
-#ifndef _course_h_
-#define _course_h_
+#include<fstream>
 using namespace std;
+
 
 struct timeStudying
 {
