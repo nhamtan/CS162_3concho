@@ -9,17 +9,38 @@
 using namespace std;
 
 
-bool loginStudent(student *&st,ifstream &fin,user ur)
+void  loginTo(student *&st,ifstream &fin,loginUser user)
 {
     fin.open("studentUser.txt");
     if(fin.is_open())
     {
         student *cur = st;
-        string tmpUser;
+
         while(cur)
         {
-            if( == user)
+            if( cur->password== user.pass && cur->username == user.username)
+            {
+                user.student =true;
+                return;
+            }
+            else cur=cur->next;
         }
+    }
+    fin.close();
+    fin.open("staffUser.txt");
+    if(fin.is_open())
+    {
+        staff *cur=sf;
+        while(cur)
+        {
+            if(cur->password == user.pass && cur->username == user.username)
+            {
+                user.staff =true;
+                return;
+            }
+            else cur=cur->next;
+        }
+
     }
     fin.close();
 }
