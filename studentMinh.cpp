@@ -9,12 +9,17 @@
 using namespace std;
 
 
-bool loginStudent(student *&st,ifstream &fin)
+bool loginStudent(student *&st,ifstream &fin,user ur)
 {
     fin.open("studentUser.txt");
     if(fin.is_open())
     {
-
+        student *cur = st;
+        string tmpUser;
+        while(cur)
+        {
+            if( == user)
+        }
     }
     fin.close();
 }

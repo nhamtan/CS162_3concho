@@ -13,14 +13,6 @@ staff *Sf;
 
 int main()
 {
-    student *St=nullptr;
-    staff *Sf=nullptr;
-    login(st,sf);
-    student *cur=st;
-    for(int i=0;i<3;i++)
-    {
-        cout << cur->password <<endl;
-        cur=cur->next;
-    }
+
     return 0;
 }
