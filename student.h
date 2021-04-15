@@ -8,7 +8,10 @@ using namespace std;
 struct student{
     string password;
     string username;
+    student *next = NULL;
 };
 
-void initStudent();
+
+
+void initStudent(student *&St);
 #endif // _student_h_

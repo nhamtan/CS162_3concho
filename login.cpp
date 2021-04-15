@@ -1,10 +1,15 @@
-#include<iostream>
+#include"student.h"
+#include"staff.h"
+#include"login.h"
+#include <bits/stdc++.h>
 using namespace std;
-#include<bits/stdc++.h>
 #include"login.h"
 
-void login()
+
+
+void login(student *&St , staff *&Sf)
 {
     string s;
-
+    initStudent(St);
+    initStaff(Sf);
 }

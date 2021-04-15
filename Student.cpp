@@ -8,10 +8,11 @@ using namespace std;
 #include"student.h"
 
 
-void initStudent() /// cái hàm này sẽ tạo ra file studentUser.txt gồm tải khoản và mật khẩu.
+
+void initStudent(student *&St) /// cái hàm này sẽ tạo ra cái list ST chứa toàn bộ tải khoản và mật khẩu của học sinh.
 {
-    freopen("studentUser.txt" , "w" , stdout);
     string s = "20CTT";
+    student *cur = NULL;
     for(char i = '1' ; i <= '2' ; i++)
     {
         /// đọc 2 file
@@ -33,7 +34,6 @@ void initStudent() /// cái hàm này sẽ tạo ra file studentUser.txt gồm t
                     words[cnt].push_back(temp[i]);
             }
             //cerr << words[2] << " " << words[4] << "\n";
-
             string Date[4];
             cnt = 1;
             for(int i = 0 ; i < words[4].size() ; i++)
@@ -52,8 +52,19 @@ void initStudent() /// cái hàm này sẽ tạo ra file studentUser.txt gồm t
                 }
             }
             //cerr << Date[2] << "\n";
-            cout << words[2] << " " << Date[2] << Date[1] << Date[3] << "\n";
+            if(St == NULL)
+            {
+                St = new student;
+                cur = St;
+            }
+            else
+            {
+                cur -> next = new student;
+                cur = cur -> next;
+            }
+            cur -> username = words[2];
+            cur -> password = Date[2] + Date[1] + Date[3];
+            //cout << cur -> username << " " << cur -> password << endl;
         }
     }
 }
-
