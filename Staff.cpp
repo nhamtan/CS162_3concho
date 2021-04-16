@@ -11,7 +11,7 @@ using namespace std;
 void initStaff(staff *&Sf) /// cái hàm này sẽ tạo ra một list Sf chứa toàn bộ tải khoản và mật khẩu của staff.
 {
     string path = "Staffs.csv";
-    freopen(path.c_str() , "r" , stdin);
+    ifstream cin(path.c_str());
     string temp;
     getline(cin , temp);
     staff *cur;
@@ -26,7 +26,6 @@ void initStaff(staff *&Sf) /// cái hàm này sẽ tạo ra một list Sf chứa
             else
                 words[cnt].push_back(temp[i]);
         }
-        //cout << words[3] << " " << words[2] << "\n";
         if(Sf == NULL)
         {
             Sf = new staff;
@@ -38,7 +37,9 @@ void initStaff(staff *&Sf) /// cái hàm này sẽ tạo ra một list Sf chứa
             cur = cur -> next;
         }
         cur -> username = words[3];
-        cur -> username = words[2];
+        cur -> password = words[2];
+        cur -> name = words[4]  + " " + words[3];
     }
+    cin.close();
 }
 

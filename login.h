@@ -7,6 +7,8 @@ using namespace std;
 #define _login_h_
 
 void login(student *&St , staff *&Sf);
+student* isStaff(student *&Sf , string username);
+student* isStudent(student *&St , string username);
 
 #endif
 

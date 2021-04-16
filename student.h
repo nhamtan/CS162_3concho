@@ -8,6 +8,7 @@ using namespace std;
 struct student{
     string password;
     string username;
+    string name;
     student *next = NULL;
 };
 

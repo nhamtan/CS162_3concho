@@ -7,7 +7,15 @@ using namespace std;
 #include"staff.h"
 #include"student.h"
 
-
+string Capitalize_first_letter(string text) /// viết hoa chữ cái đầu của mỗi từ
+{
+	for (int x = 1; x < text.length(); x++)
+	{
+		if(text[x - 1] != ' ' && text[x] != ' ')
+			text[x] = text[x] - 'A' + 'a';
+	}
+	return text;
+}
 
 void initStudent(student *&St) /// cái hàm này sẽ tạo ra cái list ST chứa toàn bộ tải khoản và mật khẩu của học sinh.
 {
@@ -17,8 +25,8 @@ void initStudent(student *&St) /// cái hàm này sẽ tạo ra cái list ST ch�
     {
         /// đọc 2 file
         string path = s + i + ".csv";
-        freopen(path.c_str() , "r" , stdin);
 
+        ifstream cin(path);
         /// truy cập vào từng file
         string temp;
         /// truy cập các dòng
@@ -62,9 +70,12 @@ void initStudent(student *&St) /// cái hàm này sẽ tạo ra cái list ST ch�
                 cur -> next = new student;
                 cur = cur -> next;
             }
+            words[3] = Capitalize_first_letter(words[3]);
             cur -> username = words[2];
             cur -> password = Date[2] + Date[1] + Date[3];
+            cur -> name = words[3];
             //cout << cur -> username << " " << cur -> password << endl;
         }
+        cin.close();
     }
 }

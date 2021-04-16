@@ -9,6 +9,7 @@ using namespace std;
 struct staff{
     string password;
     string username;
+    string name;
     staff *next = NULL;
 };
 
