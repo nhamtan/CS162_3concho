@@ -16,6 +16,7 @@ struct staff{
     string username;
     string lastname, firstname, id;
     int no;
+    string name;
     staff *next = NULL;
 };
 

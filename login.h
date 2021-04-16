@@ -19,6 +19,8 @@ struct loginUser
     bool staff =true;
 };
 void login(student *&St , staff *&Sf);
+student* isStaff(student *&Sf , string username);
+student* isStudent(student *&St , string username);
 
 #endif
 
