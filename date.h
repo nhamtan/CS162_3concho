@@ -7,7 +7,10 @@
 #include<fstream>
 using namespace std;
 
-
+struct Date
+{
+	int day, month, year;
+};
 
 
 #endif // _date_h_

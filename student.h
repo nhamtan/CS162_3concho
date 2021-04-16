@@ -14,6 +14,7 @@ struct student{
     string password;
     string username;
     string name;
+    Date* dob;
     Mark mark;
     course* mycourse;
     student *next = NULL;
