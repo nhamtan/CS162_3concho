@@ -14,6 +14,8 @@ using namespace std;
 struct staff{
     string password;
     string username;
+    string lastname, firstname, id;
+    int no;
     staff *next = NULL;
 };
 
