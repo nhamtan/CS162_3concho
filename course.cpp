@@ -1,11 +1,13 @@
-#include<iostream>
-using namespace std;
-#include<bits/stdc++.h>
+#include"student.h"
+#include"staff.h"
+#include"login.h"
 #include"course.h"
 #include"date.h"
-#include"login.h"
-#include"staff.h"
-#include"student.h"
+#include <bits/stdc++.h>
+#include<iostream>
+#include<fstream>
+using namespace std;
+
 
 
 void viewCourse(semester se[],int k)

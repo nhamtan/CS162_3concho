@@ -1,6 +1,4 @@
-#include"student.h"
-#include"staff.h"
-#include"login.h"
+
 #include"date.h"
 #include <bits/stdc++.h>
 #include<iostream>
