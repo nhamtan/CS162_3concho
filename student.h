@@ -14,10 +14,15 @@ struct student{
     string password;
     string username;
     string name;
+    Mark mark;
+    course* mycourse;
     student *next = NULL;
 };
 
-
+struct Mark
+{
+    float final, total, mid, other;
+};
 
 void initStudent(student *&St);
 #endif // _student_h_
