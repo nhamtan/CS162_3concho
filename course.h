@@ -19,9 +19,9 @@ struct course
     string name;
     string teacherName;
     int numOfCredits;
-    int maxSt=50;
+    int maxSt = 50;
     timeStudying daySt[2];
-
+    course* next;
 };
 struct semester
 {

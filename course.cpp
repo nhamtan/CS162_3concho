@@ -3,7 +3,7 @@
 #include"login.h"
 #include"course.h"
 #include"date.h"
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
 #include<iostream>
 #include<fstream>
 using namespace std;
