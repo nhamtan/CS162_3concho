@@ -3,7 +3,7 @@
 #include"login.h"
 #include"course.h"
 #include"date.h"
-#include <string.h>
+#include <string>
 #include <bits/stdc++.h>
 #include<iostream>
 #include<fstream>
@@ -26,7 +26,7 @@ void saveStudentIn4(string path, ofstream& fout, student* st)
 	fout.close();
 }
 
-void exportStudentsOfCourse(int numstu, int numcourse, course *c, student* stu)
+void exportStudentsOfCourse(course* c, student* stu, ofstream fout)
 {
 	course* cur = c;
 	student* st = stu;
@@ -34,7 +34,7 @@ void exportStudentsOfCourse(int numstu, int numcourse, course *c, student* stu)
 	{
 		while (stu != nullptr)
 		{
-			if (strcmp(stu->mycourse->id, cur->id) == 0)
+			if (stu->mycourse->id.compare(cur->id) == 0)
 			{
 				saveStudentIn4(cur->id, fout, stu);
 			}
