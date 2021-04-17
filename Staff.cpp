@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-#include<bits/stdc++.h>
+//#include<bits/stdc++.h>
 #include"course.h"
 #include"date.h"
 #include"login.h"
