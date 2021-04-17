@@ -7,7 +7,7 @@
 #include<fstream>
 using namespace std;
 
-struct Date
+struct date
 {
 	int day, month, year;
 };
