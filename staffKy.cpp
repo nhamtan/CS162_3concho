@@ -14,7 +14,7 @@ void saveDate(ofstream& fout, date d)
 	fout << d.day << " " << d.month << " " << d.year;
 }
 
-void saveStudentIn4(string path, ofstream& fout, student* st)
+void saveStudentIn4(string path, ofstream& fout, student* &st)
 {
 	fout.open(path);
 	if (!fout.is_open()) cout << "Can't create file." << endl;
@@ -26,7 +26,7 @@ void saveStudentIn4(string path, ofstream& fout, student* st)
 	fout.close();
 }
 
-void exportStudentsOfCourse(course* c, student* stu, ofstream fout)
+void exportStudentsOfCourse(course* &c, student* &stu, ofstream &fout)
 {
 	course* cur = c;
 	student* st = stu;
@@ -36,7 +36,7 @@ void exportStudentsOfCourse(course* c, student* stu, ofstream fout)
 		{
 			if (stu->mycourse->id.compare(cur->id) == 0)
 			{
-				saveStudentIn4(cur->id, fout, stu);
+				saveStudentIn4(cur->id+".txt", fout, stu);
 			}
 			stu = stu->next;
 		}

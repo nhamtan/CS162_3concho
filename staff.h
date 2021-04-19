@@ -22,6 +22,6 @@ struct staff{
 
 void initStaff(staff *&sf);
 void saveDate(ofstream& fout, date d);
-void saveStudentIn4(string path, ofstream& fout, student* st);
-void exportStudentsOfCourse(int numstu, int numcourse, course* c, student* stu)
+void saveStudentIn4(string path, ofstream& fout, student* &st);
+void exportStudentsOfCourse(course*& c, student*& stu, ofstream& fout);
 #endif // staff_h_

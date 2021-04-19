@@ -31,7 +31,4 @@ struct semester
     string year2021="20202021";
 };
 
-
-
-
 #endif // _course_h_
